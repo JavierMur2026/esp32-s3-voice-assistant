@@ -103,6 +103,9 @@ cheap, invisible, and the LED colors read surprisingly well:
 
 The `on board light` entity in HA acts as a **master switch**: turning it off silences the LED
 entirely; turning it back on repaints the *real* current state (e.g. red if muted).
+The YAML keeps the literal name `on board light` because it stabilizes the entity_id; rename the
+entity from Home Assistant if you prefer a friendlier label (e.g. "status LED"). The `LED enabled`
+template switch behind it is internal and never appears in HA.
 
 ## Firmware setup
 
