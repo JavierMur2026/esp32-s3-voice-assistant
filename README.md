@@ -1,1 +1,220 @@
-IyBFU1AzMi1TMyBWb2ljZSBBc3Npc3RhbnQgJiBNZWRpYSBQbGF5ZXIgKE4xNlI4KQoKKipUaGlzIHByb2plY3QgaXMgYSBWb2ljZSBBc3Npc3RhbnQgYW5kIGEgTWVkaWEgUGxheWVyIGZvcgpbSG9tZSBBc3Npc3RhbnRdKGh0dHBzOi8vd3d3LmhvbWUtYXNzaXN0YW50LmlvLykqKjogYSBESVkgc21hcnQgc3BlYWtlciB0aGF0IGFjdHMKYXMgYSB2b2ljZS1hc3Npc3RhbnQgc2F0ZWxsaXRlICh3YWtlIHdvcmQsIGNvbnZlcnNhdGlvbnMsIHRpbWVycykgYW5kIGF0IHRoZSBzYW1lCnRpbWUgYXMgYSBzdHJlYW1pbmcgbWVkaWEgcGxheWVyIChpbnRlcm5ldCByYWRpbywgTVAzIHN0cmVhbXMsIEhBIG1lZGlhKSwgYnVpbHQKZnJvbSBhIGNoZWFwIEVTUDMyLVMzIGRldmtpdCBhbmQgdHdvIEkyUyBtb2R1bGVzLiBTYXkKKioib2theSBuYWJ1IioqLCBhc2sgdGhpbmdzLCBwbGF5IGludGVybmV0IHJhZGlvIG9yIGFueSBNUDMgc3RyZWFtIGZyb20gSEEg4oCUIGFuZCBmb2xsb3cgdGhlIHdob2xlCmNvbnZlcnNhdGlvbiB0aHJvdWdoIGEgc3RhdHVzIExFRCBsaWdodCBwaXBlLgoKIVtGaW5pc2hlZCBidWlsZF0oZG9jcy9waG90b3Mvc3RhdHVzLWdyZWVuLXJlYWR5LmpwZykKClRoaXMgcmVwb3NpdG9yeSBjb250YWlucyB0aGUgY29tcGxldGUgRVNQSG9tZSBmaXJtd2FyZSBjb25maWd1cmF0aW9uIChZQU1MKSwgdGhlIGVtYmVkZGVkIHNvdW5kcywKYnVpbGQgcGhvdG9zIGFuZCB0aGUgaGFyZC1lYXJuZWQgbm90ZXMgb2YgYSBkZXZpY2UgdGhhdCBydW5zIGluIHByb2R1Y3Rpb24gZXZlcnkgZGF5LgoKIyMgRmVhdHVyZXMKCi0gKipPbi1kZXZpY2Ugd2FrZSB3b3JkKiogKGBva2F5X25hYnVgIHZpYSBbbWljcm9XYWtlV29yZF0oaHR0cHM6Ly9naXRodWIuY29tL2t3ZjI0Ni9taWNyb1dha2VXb3JkKSksCiAgbm8gY2xvdWQgbmVlZGVkIGZvciBkZXRlY3Rpb247IFNUVC9UVFMgcnVuIGluIHlvdXIgSG9tZSBBc3Npc3RhbnQgdm9pY2UgcGlwZWxpbmUuCi0gKipNZWRpYSBwbGF5ZXIqKiAoYG1lZGlhX3BsYXllcmAgZW50aXR5KTogTVAzIHN0cmVhbXMsIGludGVybmV0IHJhZGlvLCBUVFMgYnJvYWRjYXN0cyDigJQgbWl4ZWQKICB3aXRoIHRoZSBhc3Npc3RhbnQgdGhyb3VnaCBhIDItc291cmNlICoqSTJTIG1peGVyKiouCi0gKipNdXNpYyBkdWNraW5nKio6IHdoaWxlIHRoZSBhc3Npc3RhbnQgbGlzdGVucyBvciBhbnN3ZXJzLCBtdXNpYyBkcm9wcyAyMCBkQiBpbnN0ZWFkIG9mIHN0b3BwaW5nLAogIHRoZW4gcmVzdG9yZXMgYXV0b21hdGljYWxseS4KLSAqKkZvbGxvdy11cCBjb252ZXJzYXRpb25zKio6IGNvbnNlY3V0aXZlIHF1ZXN0aW9ucyB3aXRob3V0IHJlcGVhdGluZyB0aGUgd2FrZSB3b3JkICh3aGVuIHRoZSBIQQogIGFnZW50IHNldHMgYGNvbnRpbnVlX2NvbnZlcnNhdGlvbmApLgotICoqVm9pY2UgdGltZXJzKio6IHdoZW4gYSB0aW1lciBmaW5pc2hlcyB0aGUgZGV2aWNlIGJlZXBzIDUgdGltZXMgd2l0aCBhIHN5bmNocm9uaXplZCAqKnllbGxvdyBMRUQKICBmbGFzaCoqLgotICoqRnVsbCBMRUQgc3RhdHVzIHBhbGV0dGUqKiBiZWhpbmQgYSBsaWdodCBwaXBlLCB3aXRoIGEgbWFzdGVyIG9uL29mZiBzd2l0Y2ggYW5kIGF1dG9tYXRpYwogIHJlY29uY2lsaWF0aW9uIHdpdGggdGhlIHJlYWwgc3RhdGUgKG11dGUsIGxpc3RlbmluZywgdGhpbmtpbmfigKYpLgotICoqTXV0ZSBzd2l0Y2gqKiBpbiBIQTogc3RvcHMgd2FrZSB3b3JkIGFuZCBhc3Npc3RhbnQsIExFRCB0dXJucyBzb2xpZCByZWQuCi0gKipPVEEgdXBkYXRlcyoqIHRocm91Z2ggdGhlIEVTUEhvbWUgZGFzaGJvYXJkLCBBUEkgYW5kIE9UQSBib3RoIGVuY3J5cHRlZC4KLSAqKkZhbGxiYWNrIEFQICsgY2FwdGl2ZSBwb3J0YWwqKiBpZiBXaUZpIGlzIHVuYXZhaWxhYmxlLgotIE5vIGJ1dHRvbnMgcmVxdWlyZWQgKGEgcHVzaC10by10YWxrIHZhcmlhbnQgaXMgZWFzeSB0byBhZGQg4oCUIHRoZSBHUElPcyBhcmUgZnJlZSkuCgojIyBIYXJkd2FyZQoKVG8gYnVpbGQgdGhpcyBwcm9qZWN0IHlvdSBuZWVkIGV4YWN0bHkgdGhlc2UgcGFydHM6CgoxLiAqKkVTUDMyLVMzIE4xNlI4KiogZGV2ZWxvcG1lbnQgYm9hcmQgKHRoZSBvbmUgd2l0aCBvbi1ib2FyZCBXUzI4MTIgb24gR1BJTzQ4KQoyLiAqKklOTVA0NDEqKiBJMlMgTUVNUyBtaWNyb3Bob25lIG1vZHVsZQozLiAqKk1BWDk4MzU3QSoqIEkyUyBhbXBsaWZpZXIgbW9kdWxlCjQuICoqNCDOqSBzcGVha2VyKiogKDPigJM1IFcpCgpwbHVzIGEgNSBWIFVTQi1DIHBvd2VyIHN1cHBseSwgYSBwcm9qZWN0IGJveCBhbmQgKG9wdGlvbmFsKSB0aGUgYWNyeWxpYyBsaWdodApwaXBlLiBGdWxsIGRldGFpbHM6Cgp8IFBhcnQgfCBSb2xlIHwgTm90ZXMgfAp8LS0tfC0tLXwtLS18CnwgRVNQMzItUzMgKipOMTZSOCoqIGRldmtpdCB8IE1haW4gYm9hcmQgfCAxNiBNQiBmbGFzaCAvIDggTUIgb2N0YWwgUFNSQU0uIFRoZSBSOCAob2N0YWwpIFBTUkFNIG1hdHRlcnM6IHRoZSB3YWtlIHdvcmQgKyBhdWRpbyBidWZmZXJzIG5lZWQgaXQuIHwKfCAqKklOTVA0NDEqKiBtb2R1bGUgfCBJMlMgTUVNUyBtaWNyb3Bob25lIHwgMy13aXJlICsgR05EL1ZDQy4gfAp8ICoqTUFYOTgzNTdBKiogSTJTIGFtcGxpZmllciB8IERyaXZlcyB0aGUgc3BlYWtlciB8IFNldCBHQUlOIGZsb2F0aW5nLzFOIGZvciB+OSBkQi4gfAp8IDQgzqkgM+KAkzUgVyBzcGVha2VyICjiiYg1MCBtbSkgfCBPdXRwdXQgfCBUaGUgb25lIGluIHRoZSBwaG90b3MgaXMgYSBzbWFsbCBzcXVhcmUtZnJhbWVkIGRyaXZlci4gfAp8IFdTMjgxMiAvIE5lb1BpeGVsIExFRCB8IFN0YXR1cyBsaWdodCB8IE9uLWJvYXJkIG9uIG1hbnkgUzMgZGV2a2l0cyBhdCAqKkdQSU80OCoqLiB8CnwgVVNCLUMgNSBWIHN1cHBseSB8IFBvd2VyIHwg4omlMSBBIHJlY29tbWVuZGVkIChXaUZpIGJ1cnN0cyArIHNwZWFrZXIgcGVha3MpLiB8CnwgUHJvamVjdCBib3ggKyAzIG1tIGFjcnlsaWMgcm9kIHwgRW5jbG9zdXJlIHwgVGhlIHJvZCBpcyBhIGxpZ2h0IHBpcGUgZm9yIHRoZSBMRUQgKHNlZSBiZWxvdykuIHwKCiMjIFdpcmluZwoKfCBTaWduYWwgfCBFU1AzMi1TMyBHUElPIHwgRGV2aWNlIHBpbiB8CnwtLS18LS0tfC0tLXwKfCBNaWMgV1MgKExSQ0xLKSB8IEdQSU81IHwgSU5NUDQ0MSBgV1NgIHwKfCBNaWMgU0NLIChCQ0xLKSB8IEdQSU82IHwgSU5NUDQ0MSBgU0NLYCB8CnwgTWljIFNEIChkYXRhKSB8IEdQSU80IHwgSU5NUDQ0MSBgU0RgIChMIGNoYW5uZWwpIHwKfCBBbXAgTFJDIHwgR1BJTzEyIHwgTUFYOTgzNTdBIGBMUkNgIHwKfCBBbXAgQkNMSyB8IEdQSU8xMyB8IE1BWDk4MzU3QSBgQkNMS2AgfAp8IEFtcCBESU4gfCBHUElPMTQgfCBNQVg5ODM1N0EgYERJTmAgfAp8IFN0YXR1cyBMRUQgfCBHUElPNDggfCBXUzI4MTIgYERJTmAgfAp8IFBvd2VyIHwgNVYgLyBHTkQgfCBJTk1QNDQxIGBWQ0NgLCBNQVg5ODM1N0EgYFZpbmAgfAoKPiBUaGUgSU5NUDQ0MSBtdXN0IHRyYW5zbWl0IG9uIGl0cyAqKmxlZnQqKiBjaGFubmVsIChgTC9SYCBwaW4gdG8gR05EKSDigJQgdGhlIGZpcm13YXJlIHJlYWRzCj4gYGNoYW5uZWw6IGxlZnRgLgoKfCBUaGUgdHdvIEkyUyBtb2R1bGVzIHwgSW5zaWRlIHRoZSBib3ggfAp8LS0tfC0tLXwKfCAhW1BhcnRzIHRvcF0oZG9jcy9waG90b3MvY29tcG9uZW50cy10b3AuanBnKSB8ICFbSW50ZXJpb3JdKGRvY3MvcGhvdG9zL2ludGVyaW9yLXZpZXcuanBnKSB8CnwgIVtQYXJ0cyBib3R0b21dKGRvY3MvcGhvdG9zL2NvbXBvbmVudHMtYm90dG9tLmpwZykgfCAhW01pY3JvcGhvbmUgd2lyaW5nXShkb2NzL3Bob3Rvcy9taWNyb3Bob25lLXdpcmluZy5qcGcpIHwKfCAhW0FtcGxpZmllciB3aXJpbmddKGRvY3MvcGhvdG9zL2FtcGxpZmllci13aXJpbmcuanBnKSB8IHwKCiMjIFRoZSBlbmNsb3N1cmUgYW5kIHRoZSBsaWdodCBwaXBlCgpBbnkgc21hbGwgQUJTIGJveCB3b3Jrcy4gVGhlIGZyb250LWZhY2luZyBzcGVha2VyIHNpdHMgb24gdGhlIGxpZDsgdGhlIFdTMjgxMiBpcyBnbHVlZCBiZWhpbmQgYQoqKjMgbW0gYWNyeWxpYyByb2Qg4omIIDMxIG1tIGxvbmcqKiB0aGF0IGNoYW5uZWxzIHRoZSBzdGF0dXMgbGlnaHQgdG8gYSBzbWFsbCBob2xlIG9uIHRoZSBmcm9udCDigJQKY2hlYXAsIGludmlzaWJsZSwgYW5kIHRoZSBMRUQgY29sb3JzIHJlYWQgc3VycHJpc2luZ2x5IHdlbGw6Cgp8IExpZ2h0IHBpcGUgaW5zdGFsbGVkIHwgTGlnaHQgcGlwZSBzaXplIHwKfC0tLXwtLS18CnwgIVtMaWdodCBwaXBlXShkb2NzL3Bob3Rvcy9sZWQtbGlnaHQtcGlwZS5qcGcpIHwgIVtSb2Qgd2l0aCBydWxlcl0oZG9jcy9waG90b3MvbGlnaHQtcGlwZS1zaXplLmpwZykgfAoKIyMgTEVEIHN0YXR1cyBwYWxldHRlCgp8IENvbG9yIHwgTWVhbmluZyB8CnwtLS18LS0tfAp8IPCfn6AgT3JhbmdlIHB1bHNlIHwgQm9vdGluZyAvIG5vIEhvbWUgQXNzaXN0YW50IGNvbm5lY3Rpb24gfAp8IPCfn6IgR3JlZW4gc29saWQgKDQwICUpIHwgUmVhZHkg4oCUIGxpc3RlbmluZyBmb3IgdGhlIHdha2Ugd29yZCB8Cnwg8J+UtSBCbHVlIHB1bHNlIHwgTGlzdGVuaW5nIChhZnRlciB3YWtlIHdvcmQgYW5kIGR1cmluZyBmb2xsb3ctdXApIHwKfCDwn5+jIFB1cnBsZSBzb2xpZCB8IFRoaW5raW5nIC8gYW5zd2VyaW5nIHwKfCDwn5S0IFJlZCBzb2xpZCB8IE11dGVkIHwKfCDwn5+hIFllbGxvdyBmbGFzaCB8IFRpbWVyIGZpbmlzaGVkIChzeW5jZWQgd2l0aCB0aGUgNSBiZWVwcykgfAoKfCBSZWFkeSB8IFRoaW5raW5nIHwgTXV0ZWQgfAp8LS0tfC0tLXwtLS18CnwgIVtncmVlbl0oZG9jcy9waG90b3Mvc3RhdHVzLWdyZWVuLXJlYWR5LmpwZykgfCAhW3B1cnBsZV0oZG9jcy9waG90b3Mvc3RhdHVzLXB1cnBsZS10aGlua2luZy5qcGcpIHwgIVtyZWRdKGRvY3MvcGhvdG9zL3N0YXR1cy1yZWQtbXV0ZWQuanBnKSB8CgpUaGUgYG9uIGJvYXJkIGxpZ2h0YCBlbnRpdHkgaW4gSEEgYWN0cyBhcyBhICoqbWFzdGVyIHN3aXRjaCoqOiB0dXJuaW5nIGl0IG9mZiBzaWxlbmNlcyB0aGUgTEVECmVudGlyZWx5OyB0dXJuaW5nIGl0IGJhY2sgb24gcmVwYWludHMgdGhlICpyZWFsKiBjdXJyZW50IHN0YXRlIChlLmcuIHJlZCBpZiBtdXRlZCkuCgojIyBGaXJtd2FyZSBzZXR1cAoKUmVxdWlyZW1lbnRzOiBbRVNQSG9tZV0oaHR0cHM6Ly9lc3Bob21lLmlvLykgKioyMDI2LjEwLjIgb3IgbmV3ZXIqKiAodGVzdGVkIHdpdGggdGhlIEVTUEhvbWUKSEEgYWRkLW9uOyBzdGFuZGFsb25lIGBwaXAgaW5zdGFsbCBlc3Bob21lYCB3b3JrcyB0b28pLgoKMS4gQ29weSB0aGUgdGhyZWUgZmlsZXMgZnJvbSBbYGVzcGhvbWUvYF0oZXNwaG9tZS8pIGludG8geW91ciBFU1BIb21lIGNvbmZpZyBmb2xkZXI6CiAgIC0gYHZvaWNlLWFzc2lzdGFudC1zMy1uMTZyOC55YW1sYAogICAtIGBhdmlzby5oYCAod2FrZSBjaGltZSwgZW1iZWRkZWQgaW4gZmxhc2gg4oCUIHplcm8gUkFNIGNvc3QpCiAgIC0gYHNvdW5kc190aW1lcl9maW5pc2hlZC53YXZgICh0aW1lciBiZWVwKQoyLiBDb3B5IGBzZWNyZXRzLnlhbWwuZXhhbXBsZWAgdG8gYHNlY3JldHMueWFtbGAgKHNhbWUgZm9sZGVyKSBhbmQgZmlsbCBpbiB5b3VyIFdpRmkgU1NJRC9wYXNzd29yZCwKICAgYW4gQVBJIGVuY3J5cHRpb24ga2V5IGFuZCBhbiBPVEEgcGFzc3dvcmQuIEdlbmVyYXRlIHRoZSBrZXkgd2l0aDoKICAgYGBgYmFzaAogICBweXRob24zIC1jICJpbXBvcnQgYmFzZTY0LG9zOyBwcmludChiYXNlNjQuYjY0ZW5jb2RlKG9zLnVyYW5kb20oMzIpKS5kZWNvZGUoKSkiCiAgIGBgYAozLiBJbnN0YWxsIHRoZSBleHRlcm5hbCBjb21wb25lbnQgdXNlZCBmb3IgdGhlIGVtYmVkZGVkIGJlZXAg4oCUIEVTUEhvbWUgZmV0Y2hlcyBpdCBhdXRvbWF0aWNhbGx5IG9uCiAgIGZpcnN0IGNvbXBpbGUgKGBqZXNzZXJvY2t6L2VzcGhvbWUtY29tcG9uZW50c2ApLgo0LiAqKkZpcnN0IGZsYXNoIG92ZXIgVVNCKio6IHB1dCB0aGUgYm9hcmQgaW4gYm9vdGxvYWRlciBtb2RlIChob2xkIGBCT09UYCwgdGFwIGBSRVNFVGApIGFuZCB1c2UKICAgYGVzcGhvbWUgdXBsb2FkIHZvaWNlLWFzc2lzdGFudC1zMy1uMTZyOC55YW1sIC0tZGV2aWNlIC9kZXYvdHR5QUNNMGAgb3IgdGhlIGRhc2hib2FyZCdzCiAgICJQbHVnIGludG8gdGhpcyBjb21wdXRlciIgb3B0aW9uLiBTb21lIFMzIGJvYXJkcyBuZWVkIGEgVVNCLUMgKipkYXRhKiogY2FibGUg4oCUIG1hbnkgZmFsc2UKICAgInBvcnQgbm90IGRldGVjdGVkIiBwcm9ibGVtcyBhcmUganVzdCBjaGFyZ2Utb25seSBjYWJsZXMuCjUuIExhdGVyIHVwZGF0ZXMgZ28gKipPVEEqKiAodGhlIGRldmljZSBhcHBlYXJzIGluIHRoZSBFU1BIb21lIGRhc2hib2FyZCBvbmNlIEhBIGFkZHMgaXQpLgoKTm90ZXM6Ci0gYHBzcmFtLm1vZGU6IG9jdGFsYCBpcyBmb3IgKipOMTZSOCoqIG1vZHVsZXMuIElmIHlvdXIgYm9hcmQgaXMgTjhSMiwgdXNlIGBtb2RlOiBxdWFkYCBhbmQgZXhwZWN0CiAgbXVjaCBsZXNzIGhlYWRyb29tLgotIFRoZSBmcmFtZXdvcmsgaXMgYGVzcC1pZGZgIChub3QgYXJkdWlubyk6IHRoZSBtb2Rlcm4gYXVkaW8gcGlwZWxpbmUgcmVxdWlyZXMgaXQuCi0gV2lGaSB1c2VzIERIQ1AgYnkgZGVmYXVsdC4gRm9yIGEgZml4ZWQgYWRkcmVzcywgYWRkIGEgYG1hbnVhbF9pcDpgIGJsb2NrIHVuZGVyIGB3aWZpOmAuCgojIyBIb21lIEFzc2lzdGFudCBzaWRlCgoxLiAqKlNldHRpbmdzIOKGkiBEZXZpY2VzICYgU2VydmljZXMg4oaSIEVTUEhvbWUqKjogaW1wb3J0L2FkZCB0aGUgbm9kZSAoaXQgb2ZmZXJzIGl0c2VsZiBvbmNlIG9uIHRoZQogICBuZXR3b3JrKS4gVGhlIGRldmljZSBleHBvc2VzOgogICAtIGBhc3Npc3Rfc2F0ZWxsaXRlYCAodGhlIHZvaWNlIGFzc2lzdGFudCBpdHNlbGYpCiAgIC0gYG1lZGlhX3BsYXllcmAgKCJNZWRpYSBQbGF5ZXIiKSDigJQgc2VuZCBhbnkgTVAzL3JhZGlvIFVSTCBvciBIQSBtZWRpYSB0byBpdAogICAtIGBsaWdodGAgKCJvbiBib2FyZCBsaWdodCIpIOKAlCBMRUQgbWFzdGVyIHN3aXRjaAogICAtIGBzd2l0Y2hgICgibXV0ZSIpIOKAlCBtdXRlIHdha2Ugd29yZCArIGFzc2lzdGFudAogICAtIGBidXR0b25gICgiUmVzdGFydCIpCjIuICoqU2V0dGluZ3Mg4oaSIFZvaWNlIGFzc2lzdGFudHMqKjogY3JlYXRlL2tlZXAgYSBwaXBlbGluZSB3aXRoIGFueSBTVFQgKyBUVFMgeW91IGxpa2UgKHRoZSB3YWtlCiAgIHdvcmQgcnVucyBvbiB0aGUgZGV2aWNlLCBzbyBIQSBuZWVkcyBubyB3YWtlLXdvcmQgY29tcG9uZW50KS4gQSBTcGFuaXNoL0VuZ2xpc2ggcGlwZWxpbmUgd2l0aAogICBXaGlzcGVyIG9yIGNsb3VkIFNUVCBhbmQgUGlwZXIvY2xvdWQgVFRTIGJvdGggd29yay4KMy4gSW4gdGhlIEFzc2lzdCBzYXRlbGxpdGUgc2V0dGluZ3MgZm9yIHRoaXMgZGV2aWNlLCBhbiAqKmFnZ3Jlc3NpdmUgVkFEKiogd29ya3Mgd2VsbDogdGhlIG1pYyBpcwogICBzZW5zaXRpdmUgYW5kIHRoZSByb29tIGlzIG5vcm1hbGx5IHF1aWV0Lgo0LiBUbyB1c2UgdGltZXJzLCBqdXN0IGFzazogKiJzZXQgYSB0aW1lciBmb3IgMTAgbWludXRlcyIqIOKAlCB0aGUgZGV2aWNlIGJlZXBzIGFuZCBmbGFzaGVzIHllbGxvdwogICB3aGVuIGl0IGZpbmlzaGVzIChoYW5kbGVkIGVudGlyZWx5IGluIHRoZSBmaXJtd2FyZSwgYG9uX3RpbWVyX2ZpbmlzaGVkYCkuCgojIyMgUGxheWluZyBtdXNpYwoKRnJvbSBIQSwgc2VuZCBtZWRpYSB0byB0aGUgYG1lZGlhX3BsYXllcmAgZW50aXR5LCBlLmcuIGFuIGludGVybmV0IHJhZGlvIHN0YXRpb246CgpgYGB5YW1sCnNlcnZpY2U6IG1lZGlhX3BsYXllci5wbGF5X21lZGlhCnRhcmdldDoKICBlbnRpdHlfaWQ6IG1lZGlhX3BsYXllci52b2ljZV9hc3Npc3RhbnRfczNfbjE2cjhfbWVkaWFfcGxheWVyCmRhdGE6CiAgbWVkaWFfY29udGVudF9pZDogImh0dHBzOi8vZXhhbXBsZS5jb20vc3RyZWFtLm1wMyIKICBtZWRpYV9jb250ZW50X3R5cGU6IG11c2ljCmBgYAoKVGhlIGFzc2lzdGFudCBhdXRvbWF0aWNhbGx5IGR1Y2tzIHRoZSBtdXNpYyB3aGlsZSBhbnN3ZXJpbmcgYW5kIHJlc3RvcmVzIGl0IGFmdGVyd2FyZHMuCgojIyBDdXN0b21pemluZyB0aGUgc291bmRzCgotIGB0b29scy9nZW5lcmF0ZV9zb3VuZHMucHlgIHJlZ2VuZXJhdGVzICoqYm90aCoqIGVtYmVkZGVkIHNvdW5kcyAod2FrZSBjaGltZSArIHRpbWVyIGJlZXApIHdpdGgKICBwbGFpbiBQeXRob24g4oCUIG5vIGZmbXBlZy4gRWRpdCB0aGUgZnJlcXVlbmNpZXMvZHVyYXRpb25zIGFuZCByZWNvbXBpbGU7IHRoZSBjaGltZSBtdXN0IHN0YXkKICB1bmRlciB0aGUgOTAwIG1zIHNwZWFrZXIgcmluZyAoYGJ1ZmZlcl9kdXJhdGlvbmApLgotIFRvIHVzZSB5b3VyIG93biBhdWRpbzogY29udmVydCBhbnkgY2xpcCB0byAqKjE2IGtIeiBtb25vIDE2LWJpdCBQQ00gV0FWKiosIHRoZW4gYWRhcHQgdGhlIHNjcmlwdC4KCiMjIEtub3duIHBpdGZhbGxzIChsZWFybmVkIHRoZSBoYXJkIHdheSkKClRoZXNlIGFyZSB0aGUgZmFpbHVyZSBtb2RlcyB0aGF0IHRvb2sgcmVhbCBkZWJ1Z2dpbmcsIGNhcHR1cmVkIGluIHRoZSBZQU1MIGNvbW1lbnRzIHRvbzoKCjEuICoqYG9uX2VuZGAgZmlyZXMgYXQgdGhlIFNUQVJUIG9mIHRoZSBhbnN3ZXIqKiwgbm90IGF0IHRoZSBlbmQuIFRoZSAicmVhZHkiIGdyZWVuIExFRCBiZWxvbmdzIGluCiAgIGBvbl90dHNfc3RyZWFtX2VuZGA7IHB1dHRpbmcgaXQgaW4gYG9uX2VuZGAgbWFrZXMgdGhlIGxpZ2h0IGp1bXAgdG8gZ3JlZW4gd2hpbGUgdGhlIGRldmljZSBpcwogICBzdGlsbCBzcGVha2luZy4KMi4gKipNdXNpYyBsZWZ0IFBBVVNFRCBqYW1zIHRoZSBtaXhlcioqIGFuZCB0aGUgbmV4dCBhc3Npc3RhbnQgYW5zd2VyIGlzIG11dGUuIFRoZSBmaXJtd2FyZSBzdG9wcwogICBhIHBhdXNlZCBtZWRpYSBzb3VyY2Ugb24gd2FrZS13b3JkIGRldGVjdGlvbiwgYmVmb3JlIHRoZSBjaGltZS4KMy4gKipUaGUgc3BlYWtlciBvdXRwdXQgcmluZyBpcyBgYnVmZmVyX2R1cmF0aW9uYCoqOiB3aXRoIDUwMCBtcyB0aGUgMC44IHMgd2FrZSBjaGltZSB3YXMgdHJ1bmNhdGVkLgogICBCb3RoIHRoZSBwaHlzaWNhbCBzcGVha2VyIGFuZCB0aGUgYW5ub3VuY2VtZW50IHNvdXJjZSBuZWVkIOKJpTkwMCBtcy4KNC4gKipgbGlnaHQudHVybl9vZmZgIG11c3QgbmV2ZXIgYmUgdXNlZCB0byBibGFuayB0aGUgTEVEKiogZHVyaW5nIHRoZSB0aW1lciBmbGFzaDogaXQgd291bGQgZmlyZQogICB0aGUgbGlnaHQncyBgb25fdHVybl9vZmZgIGFuZCB0ZWFyIGRvd24gdGhlIExFRCBtYXN0ZXIgc3dpdGNoLiBCbGFjayA9IGBicmlnaHRuZXNzOiAwJWAgd2l0aCB0aGUKICAgY29sb3IgY2hhbm5lbHMgZml4ZWQgKHBhaW50aW5nIFJHQiAwLzAvMCBtYWRlIEhBIGludGVybGVhdmUgd2hpdGUgZnJhbWVzKS4KNS4gKipUaGUgY29yZSdzIGRlZmF1bHQgbGlnaHQgdHJhbnNpdGlvbiBpcyAxIHMqKjogd2l0aG91dCBgZGVmYXVsdF90cmFuc2l0aW9uX2xlbmd0aDogMHNgIHRoZSBmaXJzdAogICB0aW1lciBmbGFzaCBmYWRlcyBpbiBmcm9tIHJlc3RpbmcgZ3JlZW4gKGxvb2tzIGdyZWVuLCBub3QgeWVsbG93KS4gQSBwZXItYWN0aW9uCiAgIGB0cmFuc2l0aW9uX2xlbmd0aGAgY2Fubm90IGJlIGNvbWJpbmVkIHdpdGggYGVmZmVjdDogbm9uZWAgKGV4Y2x1c2l2ZSBvcHRpb24gZ3JvdXApLgo2LiAqKkZvbGxvdy11cCBsaXN0ZW5pbmcgb25seSBoYXBwZW5zIGlmIHRoZSBIQSBhZ2VudCBzZXRzIGBjb250aW51ZV9jb252ZXJzYXRpb25gKiog4oCUIHRoZSBibHVlCiAgIHB1bHNlIGxvZ2ljIGluIGBvbl9saXN0ZW5pbmdgIGNvdmVycyBpdCwgYnV0IGRvbid0IGJsYW1lIHRoZSBmaXJtd2FyZSB3aGVuIHRoZSBwaXBlbGluZSBjbG9zZXMKICAgdGhlIHNlc3Npb24uCjcuICoqUGFydGlhbCBgbGlnaHQudHVybl9vbmAgY2FsbHMgaW5oZXJpdCoqIHByZXZpb3VzIGNoYW5uZWxzL2VmZmVjdHM6IGFsd2F5cyBzZXQgZnVsbCBSR0IgKwogICBleHBsaWNpdCBgZWZmZWN0YC4KCiMjIExpbWl0YXRpb25zCgotICoqTm8gYWNvdXN0aWMgZWNobyBjYW5jZWxsYXRpb24qKjogdGhpcyBoYXJkd2FyZSBoYXMgbm8gcmVmZXJlbmNlLXNpZ25hbCBwYXRoLCBzbyB0aGUgbWljIGNhbgogIGhlYXIgdGhlIHNwZWFrZXIuIER1Y2tpbmcgKyB0aGUgd2FrZS13b3JkIGdhdGUgYXJlIHRoZSBwcmFjdGljYWwgbWl0aWdhdGlvbjsgYXZvaWQgdGFsa2luZyB0byBpdAogIGF0IG1heGltdW0gdm9sdW1lIG92ZXIgbG91ZCBtdXNpYy4KLSBXYWtlLXdvcmQgZmFsc2UgcG9zaXRpdmVzIGNhbiBhcHBlYXIgd2l0aCBsb3VkL25vaXN5IGVudmlyb25tZW50czsgdHVuZSBgcHJvYmFiaWxpdHlfY3V0b2ZmYAogICgwLjk3IGJ5IGRlZmF1bHQpLgotIE5hdGl2ZSBgYXNzaXN0X3NhdGVsbGl0ZS5hbm5vdW5jZWAgKHByZS1hbm5vdW5jZW1lbnQgY2hpbWVzIGZyb20gSEEpIGlzIHVucmVsaWFibGUgb24gYSBzYXRlbGxpdGUKICB0aGF0IG93bnMgYSBzcGVha2VyIGluIHRoaXMgRVNQSG9tZSB2ZXJzaW9uIOKAlCBhbm5vdW5jZW1lbnRzIGFyZSBoYW5kbGVkIHRocm91Z2ggdGhlIGludGVybmFsCiAgYW5ub3VuY2VtZW50IG1peGVyIHNvdXJjZSBpbnN0ZWFkLgoKIyMgUmVwbyBsYXlvdXQKCmBgYAplc3Bob21lLyAgIGZpcm13YXJlIFlBTUwgKyBlbWJlZGRlZCBzb3VuZHMgKyBzZWNyZXRzIGV4YW1wbGUKZG9jcy9waG90b3MvICBidWlsZCBwaG90b3MKdG9vbHMvICAgICBnZW5lcmF0ZV9zb3VuZHMucHkgKHJlZ2VuZXJhdGUgdGhlIGVtYmVkZGVkIGF1ZGlvKQpgYGAKCiMjIExpY2Vuc2UgLyBjcmVkaXRzCgpNSVQg4oCUIHNlZSBbTElDRU5TRV0oTElDRU5TRSkuIEZpcm13YXJlLCBwaG90b3MgYW5kIGRvY3VtZW50YXRpb24gYnkgKipKYXZpZXIgTXVyKiogKHByb2R1Y3Rpb24KZGV2aWNlLCBOb3ZlbWJlciAyMDI2KS4gQnVpbHQgb24gRVNQSG9tZSwgbWljcm9XYWtlV29yZCBhbmQgdGhlIEhvbWUgQXNzaXN0YW50IHZvaWNlIGFzc2lzdGFudAplY29zeXN0ZW0uIENvbnRyaWJ1dGlvbnMgYW5kIGlzc3VlIHJlcG9ydHMgd2VsY29tZS4K
+# ESP32-S3 Voice Assistant & Media Player (N16R8)
+
+**This project is a Voice Assistant and a Media Player for
+[Home Assistant](https://www.home-assistant.io/)**: a DIY smart speaker that acts
+as a voice-assistant satellite (wake word, conversations, timers) and at the same
+time as a streaming media player (internet radio, MP3 streams, HA media), built
+from a cheap ESP32-S3 devkit and two I2S modules. Say
+**"okay nabu"**, ask things, play internet radio or any MP3 stream from HA — and follow the whole
+conversation through a status LED light pipe.
+
+![Finished build](docs/photos/status-green-ready.jpg)
+
+This repository contains the complete ESPHome firmware configuration (YAML), the embedded sounds,
+build photos and the hard-earned notes of a device that runs in production every day.
+
+## Features
+
+- **On-device wake word** (`okay_nabu` via [microWakeWord](https://github.com/kwf246/microWakeWord)),
+  no cloud needed for detection; STT/TTS run in your Home Assistant voice pipeline.
+- **Media player** (`media_player` entity): MP3 streams, internet radio, TTS broadcasts — mixed
+  with the assistant through a 2-source **I2S mixer**.
+- **Music ducking**: while the assistant listens or answers, music drops 20 dB instead of stopping,
+  then restores automatically.
+- **Follow-up conversations**: consecutive questions without repeating the wake word (when the HA
+  agent sets `continue_conversation`).
+- **Voice timers**: when a timer finishes the device beeps 5 times with a synchronized **yellow LED
+  flash**.
+- **Full LED status palette** behind a light pipe, with a master on/off switch and automatic
+  reconciliation with the real state (mute, listening, thinking…).
+- **Mute switch** in HA: stops wake word and assistant, LED turns solid red.
+- **OTA updates** through the ESPHome dashboard, API and OTA both encrypted.
+- **Fallback AP + captive portal** if WiFi is unavailable.
+- No buttons required (a push-to-talk variant is easy to add — the GPIOs are free).
+
+## Hardware
+
+To build this project you need exactly these parts:
+
+1. **ESP32-S3 N16R8** development board (the one with on-board WS2812 on GPIO48)
+2. **INMP441** I2S MEMS microphone module
+3. **MAX98357A** I2S amplifier module
+4. **4 Ω speaker** (3–5 W)
+
+plus a 5 V USB-C power supply, a project box and (optional) the acrylic light
+pipe. Full details:
+
+| Part | Role | Notes |
+|---|---|---|
+| ESP32-S3 **N16R8** devkit | Main board | 16 MB flash / 8 MB octal PSRAM. The R8 (octal) PSRAM matters: the wake word + audio buffers need it. |
+| **INMP441** module | I2S MEMS microphone | 3-wire + GND/VCC. |
+| **MAX98357A** I2S amplifier | Drives the speaker | Set GAIN floating/1N for ~9 dB. |
+| 4 Ω 3–5 W speaker (≈50 mm) | Output | The one in the photos is a small square-framed driver. |
+| WS2812 / NeoPixel LED | Status light | On-board on many S3 devkits at **GPIO48**. |
+| USB-C 5 V supply | Power | ≥1 A recommended (WiFi bursts + speaker peaks). |
+| Project box + 3 mm acrylic rod | Enclosure | The rod is a light pipe for the LED (see below). |
+
+## Wiring
+
+| Signal | ESP32-S3 GPIO | Device pin |
+|---|---|---|
+| Mic WS (LRCLK) | GPIO5 | INMP441 `WS` |
+| Mic SCK (BCLK) | GPIO6 | INMP441 `SCK` |
+| Mic SD (data) | GPIO4 | INMP441 `SD` (L channel) |
+| Amp LRC | GPIO12 | MAX98357A `LRC` |
+| Amp BCLK | GPIO13 | MAX98357A `BCLK` |
+| Amp DIN | GPIO14 | MAX98357A `DIN` |
+| Status LED | GPIO48 | WS2812 `DIN` |
+| Power | 5V / GND | INMP441 `VCC`, MAX98357A `Vin` |
+
+> The INMP441 must transmit on its **left** channel (`L/R` pin to GND) — the firmware reads
+> `channel: left`.
+
+| The two I2S modules | Inside the box |
+|---|---|
+| ![Parts top](docs/photos/components-top.jpg) | ![Interior](docs/photos/interior-view.jpg) |
+| ![Parts bottom](docs/photos/components-bottom.jpg) | ![Microphone wiring](docs/photos/microphone-wiring.jpg) |
+| ![Amplifier wiring](docs/photos/amplifier-wiring.jpg) | |
+
+## The enclosure and the light pipe
+
+Any small ABS box works. The front-facing speaker sits on the lid; the WS2812 is glued behind a
+**3 mm acrylic rod ≈ 31 mm long** that channels the status light to a small hole on the front —
+cheap, invisible, and the LED colors read surprisingly well:
+
+| Light pipe installed | Light pipe size |
+|---|---|
+| ![Light pipe](docs/photos/led-light-pipe.jpg) | ![Rod with ruler](docs/photos/light-pipe-size.jpg) |
+
+## LED status palette
+
+| Color | Meaning |
+|---|---|
+| 🟠 Orange pulse | Booting / no Home Assistant connection |
+| 🟢 Green solid (40 %) | Ready — listening for the wake word |
+| 🔵 Blue pulse | Listening (after wake word and during follow-up) |
+| 🟣 Purple solid | Thinking / answering |
+| 🔴 Red solid | Muted |
+| 🟡 Yellow flash | Timer finished (synced with the 5 beeps) |
+
+| Ready | Thinking | Muted |
+|---|---|---|
+| ![green](docs/photos/status-green-ready.jpg) | ![purple](docs/photos/status-purple-thinking.jpg) | ![red](docs/photos/status-red-muted.jpg) |
+
+The `on board light` entity in HA acts as a **master switch**: turning it off silences the LED
+entirely; turning it back on repaints the *real* current state (e.g. red if muted).
+
+## Firmware setup
+
+Requirements: [ESPHome](https://esphome.io/) **2026.10.2 or newer** (tested with the ESPHome
+HA add-on; standalone `pip install esphome` works too).
+
+1. Copy the three files from [`esphome/`](esphome/) into your ESPHome config folder:
+   - `voice-assistant-s3-n16r8.yaml`
+   - `aviso.h` (wake chime, embedded in flash — zero RAM cost)
+   - `sounds_timer_finished.wav` (timer beep)
+2. Copy `secrets.yaml.example` to `secrets.yaml` (same folder) and fill in your WiFi SSID/password,
+   an API encryption key and an OTA password. Generate the key with:
+   ```bash
+   python3 -c "import base64,os; print(base64.b64encode(os.urandom(32)).decode())"
+   ```
+3. Install the external component used for the embedded beep — ESPHome fetches it automatically on
+   first compile (`jesserockz/esphome-components`).
+4. **First flash over USB**: put the board in bootloader mode (hold `BOOT`, tap `RESET`) and use
+   `esphome upload voice-assistant-s3-n16r8.yaml --device /dev/ttyACM0` or the dashboard's
+   "Plug into this computer" option. Some S3 boards need a USB-C **data** cable — many false
+   "port not detected" problems are just charge-only cables.
+5. Later updates go **OTA** (the device appears in the ESPHome dashboard once HA adds it).
+
+Notes:
+- `psram.mode: octal` is for **N16R8** modules. If your board is N8R2, use `mode: quad` and expect
+  much less headroom.
+- The framework is `esp-idf` (not arduino): the modern audio pipeline requires it.
+- WiFi uses DHCP by default. For a fixed address, add a `manual_ip:` block under `wifi:`.
+
+## Home Assistant side
+
+1. **Settings → Devices & Services → ESPHome**: import/add the node (it offers itself once on the
+   network). The device exposes:
+   - `assist_satellite` (the voice assistant itself)
+   - `media_player` ("Media Player") — send any MP3/radio URL or HA media to it
+   - `light` ("on board light") — LED master switch
+   - `switch` ("mute") — mute wake word + assistant
+   - `button` ("Restart")
+2. **Settings → Voice assistants**: create/keep a pipeline with any STT + TTS you like (the wake
+   word runs on the device, so HA needs no wake-word component). A Spanish/English pipeline with
+   Whisper or cloud STT and Piper/cloud TTS both work.
+3. In the Assist satellite settings for this device, an **aggressive VAD** works well: the mic is
+   sensitive and the room is normally quiet.
+4. To use timers, just ask: *"set a timer for 10 minutes"* — the device beeps and flashes yellow
+   when it finishes (handled entirely in the firmware, `on_timer_finished`).
+
+### Playing music
+
+From HA, send media to the `media_player` entity, e.g. an internet radio station:
+
+```yaml
+service: media_player.play_media
+target:
+  entity_id: media_player.voice_assistant_s3_n16r8_media_player
+data:
+  media_content_id: "https://example.com/stream.mp3"
+  media_content_type: music
+```
+
+The assistant automatically ducks the music while answering and restores it afterwards.
+
+## Customizing the sounds
+
+- `tools/generate_sounds.py` regenerates **both** embedded sounds (wake chime + timer beep) with
+  plain Python — no ffmpeg. Edit the frequencies/durations and recompile; the chime must stay
+  under the 900 ms speaker ring (`buffer_duration`).
+- To use your own audio: convert any clip to **16 kHz mono 16-bit PCM WAV**, then adapt the script.
+
+## Known pitfalls (learned the hard way)
+
+These are the failure modes that took real debugging, captured in the YAML comments too:
+
+1. **`on_end` fires at the START of the answer**, not at the end. The "ready" green LED belongs in
+   `on_tts_stream_end`; putting it in `on_end` makes the light jump to green while the device is
+   still speaking.
+2. **Music left PAUSED jams the mixer** and the next assistant answer is mute. The firmware stops
+   a paused media source on wake-word detection, before the chime.
+3. **The speaker output ring is `buffer_duration`**: with 500 ms the 0.8 s wake chime was truncated.
+   Both the physical speaker and the announcement source need ≥900 ms.
+4. **`light.turn_off` must never be used to blank the LED** during the timer flash: it would fire
+   the light's `on_turn_off` and tear down the LED master switch. Black = `brightness: 0%` with the
+   color channels fixed (painting RGB 0/0/0 made HA interleave white frames).
+5. **The core's default light transition is 1 s**: without `default_transition_length: 0s` the first
+   timer flash fades in from resting green (looks green, not yellow). A per-action
+   `transition_length` cannot be combined with `effect: none` (exclusive option group).
+6. **Follow-up listening only happens if the HA agent sets `continue_conversation`** — the blue
+   pulse logic in `on_listening` covers it, but don't blame the firmware when the pipeline closes
+   the session.
+7. **Partial `light.turn_on` calls inherit** previous channels/effects: always set full RGB +
+   explicit `effect`.
+
+## Limitations
+
+- **No acoustic echo cancellation**: this hardware has no reference-signal path, so the mic can
+  hear the speaker. Ducking + the wake-word gate are the practical mitigation; avoid talking to it
+  at maximum volume over loud music.
+- Wake-word false positives can appear with loud/noisy environments; tune `probability_cutoff`
+  (0.97 by default).
+- Native `assist_satellite.announce` (pre-announcement chimes from HA) is unreliable on a satellite
+  that owns a speaker in this ESPHome version — announcements are handled through the internal
+  announcement mixer source instead.
+
+## Repo layout
+
+```
+esphome/   firmware YAML + embedded sounds + secrets example
+docs/photos/  build photos
+tools/     generate_sounds.py (regenerate the embedded audio)
+```
+
+## License / credits
+
+MIT — see [LICENSE](LICENSE). Firmware, photos and documentation by **Javier Mur** (production
+device, November 2026). Built on ESPHome, microWakeWord and the Home Assistant voice assistant
+ecosystem. Contributions and issue reports welcome.

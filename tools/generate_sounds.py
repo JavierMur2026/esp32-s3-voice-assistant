@@ -1,1 +1,82 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJHZW5lcmF0ZSB0aGUgdHdvIGVtYmVkZGVkIHNvdW5kcyBmb3IgdGhlIEVTUDMyLVMzIFZvaWNlIEFzc2lzdGFudDoKCiAgZXNwaG9tZS9hdmlzby5oICAgICAgICAgICAgICAgICAgLT4gd2FrZSBjaGltZSwgcmF3IDE2LWJpdCBQQ00gKDE2IGtIeiBtb25vKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGF5ZWQgdGhyb3VnaCB0aGUgYW5ub3VuY2VtZW50IG1peGVyIHNvdXJjZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChgc3BlYWtlci5wbGF5IC4uLiBkYXRhOiAhbGFtYmRhIHJldHVybiBhdmlzb19yYXc7YCkKICBlc3Bob21lL3NvdW5kc190aW1lcl9maW5pc2hlZC53YXYtPiB0aW1lci1maW5pc2hlZCBiZWVwLCBXQVYgMTYga0h6IG1vbm8gMTYtYml0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtYmVkZGVkIHdpdGggdGhlIGBmaWxlOmAgY29tcG9uZW50ICh+ODEyIG1zKQoKTm8gZmZtcGVnIG5lZWRlZCAocGxhaW4gc3RkbGliKS4gUnVuIGZyb20gdGhlIHJlcG8gcm9vdDoKICAgIHB5dGhvbjMgdG9vbHMvZ2VuZXJhdGVfc291bmRzLnB5CiIiIgppbXBvcnQgbWF0aAppbXBvcnQgb3MKaW1wb3J0IHN0cnVjdAppbXBvcnQgd2F2ZQoKU1IgPSAxNjAwMCAgICAgICAgICAjIHNhbXBsZSByYXRlIHVzZWQgYnkgdGhlIHNwZWFrZXIgY29uZmlnClBFQUsgPSAwLjcgICAgICAgICAgIyA3MCAlIGFtcGxpdHVkZSwgYXMgdGhlIHByb2R1Y3Rpb24gZmlybXdhcmUKSEVSRSA9IG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKQpPVVQgPSBvcy5wYXRoLmpvaW4oSEVSRSwgIi4uIiwgImVzcGhvbWUiKQoKCmRlZiB0b25lX3NhbXBsZXMoZnJlcXNfZHVyYXRpb25zLCBwZWFrPVBFQUspOgogICAgIiIiUGllY2V3aXNlIHNpbmUgd2l0aCBleHBvbmVudGlhbCBkZWNheSBwZXIgc2VnbWVudC4gZnJlcXNfZHVyYXRpb25zID0KICAgIGxpc3Qgb2YgKGZyZXFfaHosIGR1cmF0aW9uX3MpLiBSZXR1cm5zIGxpc3Qgb2YgMTYtYml0IHNpZ25lZCBpbnRzLiIiIgogICAgc2FtcGxlcyA9IFtdCiAgICBmb3IgZnJlcSwgZHVyIGluIGZyZXFzX2R1cmF0aW9uczoKICAgICAgICBuID0gaW50KFNSICogZHVyKQogICAgICAgIGZvciBpIGluIHJhbmdlKG4pOgogICAgICAgICAgICB0ID0gaSAvIFNSCiAgICAgICAgICAgIGVudiA9IG1hdGguZXhwKC0zLjAgKiB0IC8gZHVyKSAgICAgICAgICAjIGRlY2F5IGluc2lkZSB0aGUgc2VnbWVudAogICAgICAgICAgICB2ID0gKG1hdGguc2luKDIgKiBtYXRoLnBpICogZnJlcSAqIHQpICogMC44CiAgICAgICAgICAgICAgICAgKyBtYXRoLnNpbigyICogbWF0aC5waSAqIGZyZXEgKiAyICogdCkgKiAwLjIpCiAgICAgICAgICAgIHNhbXBsZXMuYXBwZW5kKGludCh2ICogZW52ICogcGVhayAqIDMyNzY3KSkKICAgIHJldHVybiBzYW1wbGVzCgoKZGVmIGZhZGUoc2FtcGxlcywgZWRnZT0xNjApOgogICAgIiIiU2hvcnQgZmFkZSBpbi9vdXQgdG8gYXZvaWQgY2xpY2tzLiIiIgogICAgZm9yIGkgaW4gcmFuZ2UobWluKGVkZ2UsIGxlbihzYW1wbGVzKSkpOgogICAgICAgIHNhbXBsZXNbaV0gPSBzYW1wbGVzW2ldICogaSAvLyBlZGdlCiAgICBmb3IgaSBpbiByYW5nZShtaW4oZWRnZSwgbGVuKHNhbXBsZXMpKSk6CiAgICAgICAgaiA9IGxlbihzYW1wbGVzKSAtIDEgLSBpCiAgICAgICAgc2FtcGxlc1tqXSA9IHNhbXBsZXNbal0gKiBpIC8vIGVkZ2UKCgpkZWYgbWFpbigpOgogICAgb3MubWFrZWRpcnMoT1VULCBleGlzdF9vaz1UcnVlKQoKICAgICMgLS0tLSB3YWtlIGNoaW1lOiB0d28tbm90ZSAiZGluZy1kb25nIiwgMC44IHMgdG90YWwgLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgY2hpbWUgPSB0b25lX3NhbXBsZXMoWygxNTY4LjAsIDAuNDApLCAoMTMxOC41LCAwLjQwKV0pICAgIyBHNiAtPiBFNgogICAgZmFkZShjaGltZSkKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oT1VULCAiYXZpc28uaCIpLCAidyIpIGFzIGY6CiAgICAgICAgZi53cml0ZSgiLy8gR2VuZXJpYyBhY3RpdmF0aW9uIGNoaW1lOiAwLjggcywgMTYga0h6IG1vbm8sIDE2LWJpdCBQQ00sXG4iKQogICAgICAgIGYud3JpdGUoIi8vIDcwICUgYW1wbGl0dWRlLiBSZWdlbmVyYXRlIHdpdGggdG9vbHMvZ2VuZXJhdGVfc291bmRzLnB5LlxuIikKICAgICAgICBmLndyaXRlKCJzdGQ6OnZlY3Rvcjx1bnNpZ25lZCBjaGFyPiBhdmlzb19yYXcgPSB7XG4iKQogICAgICAgIGIgPSBiIiIuam9pbihzdHJ1Y3QucGFjaygiPGgiLCBzKSBmb3IgcyBpbiBjaGltZSkKICAgICAgICBmb3IgaSBpbiByYW5nZSgwLCBsZW4oYiksIDEyKToKICAgICAgICAgICAgZi53cml0ZSgiLCAiLmpvaW4oZiIweHt4OjAyeH0iIGZvciB4IGluIGJbaTppICsgMTJdKSArICIsXG4iKQogICAgICAgIGYud3JpdGUoIn07XG4iKQogICAgcHJpbnQoZiJhdmlzby5oOiB7bGVuKGNoaW1lKX0gc2FtcGxlcyAoe2xlbihjaGltZSkvU1I6LjJmfSBzKSIpCgogICAgIyAtLS0tIHRpbWVyIGJlZXA6IDMgc2hvcnQgODgwIEh6IGJlZXBzIGluc2lkZSB+ODEyIG1zIC0tLS0tLS0tLS0tLS0tLS0tCiAgICBiZWVwID0gW10KICAgIGZvciBrIGluIHJhbmdlKDMpOgogICAgICAgIHNlZyA9IHRvbmVfc2FtcGxlcyhbKDg4MC4wLCAwLjE4KV0pCiAgICAgICAgZmFkZShzZWcsIDgwKQogICAgICAgIGJlZXAgKz0gc2VnCiAgICAgICAgaWYgayA8IDI6CiAgICAgICAgICAgIGJlZXAgKz0gWzBdICogaW50KFNSICogMC4wNikgICAgICAgICAgICAgIyA2MCBtcyBnYXAKICAgIGJlZXAgKz0gWzBdICogKGludChTUiAqIDAuODEyKSAtIGxlbihiZWVwKSkgICAgICAjIHBhZCB0byA4MTIgbXMKICAgIHdpdGggd2F2ZS5vcGVuKG9zLnBhdGguam9pbihPVVQsICJzb3VuZHNfdGltZXJfZmluaXNoZWQud2F2IiksICJ3YiIpIGFzIHc6CiAgICAgICAgdy5zZXRuY2hhbm5lbHMoMSkKICAgICAgICB3LnNldHNhbXB3aWR0aCgyKQogICAgICAgIHcuc2V0ZnJhbWVyYXRlKFNSKQogICAgICAgIHcud3JpdGVmcmFtZXMoYiIiLmpvaW4oc3RydWN0LnBhY2soIjxoIiwgcykgZm9yIHMgaW4gYmVlcCkpCiAgICBwcmludCgic291bmRzX3RpbWVyX2ZpbmlzaGVkLndhdjogODEyIG1zIikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""Generate the two embedded sounds for the ESP32-S3 Voice Assistant:
+
+  esphome/aviso.h                  -> wake chime, raw 16-bit PCM (16 kHz mono),
+                                      played through the announcement mixer source
+                                      (`speaker.play ... data: !lambda return aviso_raw;`)
+  esphome/sounds_timer_finished.wav-> timer-finished beep, WAV 16 kHz mono 16-bit,
+                                      embedded with the `file:` component (~812 ms)
+
+No ffmpeg needed (plain stdlib). Run from the repo root:
+    python3 tools/generate_sounds.py
+"""
+import math
+import os
+import struct
+import wave
+
+SR = 16000          # sample rate used by the speaker config
+PEAK = 0.7          # 70 % amplitude, as the production firmware
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "..", "esphome")
+
+
+def tone_samples(freqs_durations, peak=PEAK):
+    """Piecewise sine with exponential decay per segment. freqs_durations =
+    list of (freq_hz, duration_s). Returns list of 16-bit signed ints."""
+    samples = []
+    for freq, dur in freqs_durations:
+        n = int(SR * dur)
+        for i in range(n):
+            t = i / SR
+            env = math.exp(-3.0 * t / dur)          # decay inside the segment
+            v = (math.sin(2 * math.pi * freq * t) * 0.8
+                 + math.sin(2 * math.pi * freq * 2 * t) * 0.2)
+            samples.append(int(v * env * peak * 32767))
+    return samples
+
+
+def fade(samples, edge=160):
+    """Short fade in/out to avoid clicks."""
+    for i in range(min(edge, len(samples))):
+        samples[i] = samples[i] * i // edge
+    for i in range(min(edge, len(samples))):
+        j = len(samples) - 1 - i
+        samples[j] = samples[j] * i // edge
+
+
+def main():
+    os.makedirs(OUT, exist_ok=True)
+
+    # ---- wake chime: two-note "ding-dong", 0.8 s total -------------------
+    chime = tone_samples([(1568.0, 0.40), (1318.5, 0.40)])   # G6 -> E6
+    fade(chime)
+    with open(os.path.join(OUT, "aviso.h"), "w") as f:
+        f.write("// Generic activation chime: 0.8 s, 16 kHz mono, 16-bit PCM,\n")
+        f.write("// 70 % amplitude. Regenerate with tools/generate_sounds.py.\n")
+        f.write("std::vector<unsigned char> aviso_raw = {\n")
+        b = b"".join(struct.pack("<h", s) for s in chime)
+        for i in range(0, len(b), 12):
+            f.write(", ".join(f"0x{x:02x}" for x in b[i:i + 12]) + ",\n")
+        f.write("};\n")
+    print(f"aviso.h: {len(chime)} samples ({len(chime)/SR:.2f} s)")
+
+    # ---- timer beep: 3 short 880 Hz beeps inside ~812 ms -----------------
+    beep = []
+    for k in range(3):
+        seg = tone_samples([(880.0, 0.18)])
+        fade(seg, 80)
+        beep += seg
+        if k < 2:
+            beep += [0] * int(SR * 0.06)             # 60 ms gap
+    beep += [0] * (int(SR * 0.812) - len(beep))      # pad to 812 ms
+    with wave.open(os.path.join(OUT, "sounds_timer_finished.wav"), "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(SR)
+        w.writeframes(b"".join(struct.pack("<h", s) for s in beep))
+    print("sounds_timer_finished.wav: 812 ms")
+
+
+if __name__ == "__main__":
+    main()
