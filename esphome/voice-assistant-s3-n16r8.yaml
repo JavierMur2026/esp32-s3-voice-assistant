@@ -1,4 +1,11 @@
-# voice-assistant-s3-n16r8 — v2.0 — ESP32-S3 N16R8 Voice Assistant & media player
+# voice-assistant-s3-n16r8 — v2.1 — ESP32-S3 N16R8 Voice Assistant & media player
+# ## v2.1 2026-11-20 — ESPHome 2026.11 compatibility ONLY (no logic changes):
+# ##   the upstream `file` external component (jesserockz/esphome-components) emits its
+# ##   PROGMEM array inside setup(), and 2026.11+ generates action lambdas as global
+# ##   functions -> "'timer_finished_wave_file' was not declared in this scope" at compile
+# ##   time. The repo now ships a patched local copy (declaration via cg.add_global,
+# ##   still compatible with 2026.10.x) and external_components points at it.
+# ##   Keep esphome/external_components/ next to this YAML.
 # Hardware: ESP32-S3 N16R8 devkit (16 MB flash / 8 MB octal PSRAM), INMP441 I2S
 #   microphone (i2s_mic bus), MAX98357A I2S amplifier (i2s_speaker bus), WS2812
 #   status LED on GPIO48. No physical buttons.
@@ -36,7 +43,7 @@ esphome:
   friendly_name: Voice Assistant S3 N16R8
   project:
     name: voice-assistant-s3.community
-    version: "2.0"
+    version: "2.1"
   platformio_options:
     board_build.flash_mode: dio
   on_boot:
@@ -542,10 +549,14 @@ voice_assistant:
 
 # External component used only to embed the timer beep WAV in flash
 # (zero RAM cost: it is streamed from flash).
+# v2.1: NOT github://jesserockz/esphome-components — upstream breaks with ESPHome
+# 2026.11+ (see changelog above). A patched local copy ships in this repo under
+# esphome/external_components/file/. Keep that folder next to this YAML.
 external_components:
-  - source: github://jesserockz/esphome-components
+  - source:
+      type: local
+      path: external_components
     components: [file]
-    refresh: 0s
 
 file:
   - id: timer_finished_wave_file

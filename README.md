@@ -110,19 +110,24 @@ template switch behind it is internal and never appears in HA.
 ## Firmware setup
 
 Requirements: [ESPHome](https://esphome.io/) **2026.10.2 or newer** (tested with the ESPHome
-HA add-on; standalone `pip install esphome` works too).
+HA add-on through **2026.11.0**; standalone `pip install esphome` works too).
 
-1. Copy the three files from [`esphome/`](esphome/) into your ESPHome config folder:
+1. Copy the contents of [`esphome/`](esphome/) into your ESPHome config folder (files **and** the
+   `external_components/` subfolder):
    - `voice-assistant-s3-n16r8.yaml`
    - `aviso.h` (wake chime, embedded in flash — zero RAM cost)
    - `sounds_timer_finished.wav` (timer beep)
+   - `external_components/file/__init__.py` (patched beep embedder — see step 3)
 2. Copy `secrets.yaml.example` to `secrets.yaml` (same folder) and fill in your WiFi SSID/password,
    an API encryption key and an OTA password. Generate the key with:
    ```bash
    python3 -c "import base64,os; print(base64.b64encode(os.urandom(32)).decode())"
    ```
-3. Install the external component used for the embedded beep — ESPHome fetches it automatically on
-   first compile (`jesserockz/esphome-components`).
+3. The beep embedder (`file` component) is **bundled here as a patched local copy** — nothing to
+   install. The upstream `jesserockz/esphome-components` version emits its PROGMEM array inside
+   `setup()`, which fails to compile on ESPHome 2026.11+ (action lambdas became global functions
+   that can't see it). The YAML points `external_components` at the local folder; keep it next to
+   the YAML. The patched copy still compiles on 2026.10.x.
 4. **First flash over USB**: put the board in bootloader mode (hold `BOOT`, tap `RESET`) and use
    `esphome upload voice-assistant-s3-n16r8.yaml --device /dev/ttyACM0` or the dashboard's
    "Plug into this computer" option. Some S3 boards need a USB-C **data** cable — many false
@@ -196,6 +201,10 @@ These are the failure modes that took real debugging, captured in the YAML comme
    the session.
 7. **Partial `light.turn_on` calls inherit** previous channels/effects: always set full RGB +
    explicit `effect`.
+8. **ESPHome 2026.11+ breaks the upstream `file` external component** (beep array lands in
+   `setup()` while the timer-beep lambda is compiled as a global function → `'…' was not declared
+   in this scope`). Solved in this repo by the bundled patched copy — if upstream ever fixes it,
+   switching `external_components` back to `github://jesserockz/esphome-components` is enough.
 
 ## Limitations
 
@@ -212,6 +221,7 @@ These are the failure modes that took real debugging, captured in the YAML comme
 
 ```
 esphome/   firmware YAML + embedded sounds + secrets example
+esphome/external_components/file/  patched `file` component (ESPHome 2026.11 compatible)
 docs/photos/  build photos
 tools/     generate_sounds.py (regenerate the embedded audio)
 ```
