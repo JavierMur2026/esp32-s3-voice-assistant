@@ -1,0 +1,5 @@
+# Never commit your real secrets
+secrets.yaml
+# ESPHome build leftovers
+.esphome/
+__pycache__/
